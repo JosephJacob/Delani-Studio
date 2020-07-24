@@ -90,3 +90,6 @@ h5 {
 ::placeholder {
     color: white;
 }
+.container {
+    font-size: 14px;
+}
