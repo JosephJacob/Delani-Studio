@@ -27,7 +27,7 @@ span {
     height: 50vh;
 
 }
-.container {
+.cats {
     text-align: center;
 }
 .important {
@@ -86,4 +86,7 @@ h4 {
 h5 {
     font-size: 17px;
     font-weight: bold;
+}
+::placeholder {
+    color: white;
 }
