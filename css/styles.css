@@ -1,0 +1,10 @@
+body {
+    overflow-x: hidden;
+}
+
+.slide1 {
+    background-image: url("/home/jay/Documents/moringa-school-projects/IP3-master/assets/backgrounds/h_img.jpg");
+    height: 100vh;
+    text-align: center;
+    
+}
