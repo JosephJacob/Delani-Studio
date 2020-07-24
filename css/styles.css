@@ -20,4 +20,7 @@ span {
 .slide3 {
     background-image: url("/home/jay/Documents/moringa-school-projects/IP3-master/assets/backgrounds/s_image.jpg");
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
