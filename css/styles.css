@@ -30,3 +30,14 @@ span {
 .container {
     text-align: center;
 }
+.important {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.slide4 {
+    text-align: center;
+    color: white;
+    height: 100vh;
+    padding-top: 50px;
+}
