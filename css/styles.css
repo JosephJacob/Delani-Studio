@@ -71,6 +71,8 @@ span {
     padding-top: 110px;
 }
 
-.SOCIALMEDIA img {
-    padding: 0 8px;
+input {
+    width: 400px;
+    background: transparent;
+    color: white;
 }
