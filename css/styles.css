@@ -57,3 +57,20 @@ span {
     transform: scale(1.2);
     transition: all 0.3s ease;
 }
+.card-1 {
+    position: absolute;
+    cursor: pointer;
+    min-height: 100%;
+    transition: all 0.5s ease;
+    ;
+    background: rgba(0, 0, 0, 0.582);
+    width: 100%;
+    opacity:0;
+}
+.Services {
+    padding-top: 110px;
+}
+
+.SOCIALMEDIA img {
+    padding: 0 8px;
+}
