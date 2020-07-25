@@ -6,7 +6,7 @@ body {
 }
 
 .slide1 {
-    background-image: url("/home/jay/Documents/moringa-school-projects/IP3-master/assets/backgrounds/h_img.jpg");
+    background-image: url("/IP3-master/css/img/h_img.jpg");
     background-repeat: no-repeat;
 
     height: 100vh;
