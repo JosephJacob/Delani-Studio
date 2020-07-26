@@ -1,33 +1,39 @@
 <html>
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap" rel="stylesheet">
+    <!--link to google fonts-->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!--link to bootstrap-->
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <!--link to css-->
     <script src="js/jquery-3.5.1.js"></script>
+    <!--link to jquery-->
     <script src="js/scripts.js"></script>
+    <!--link to javascript-->
     <title>Delani Studio</title>
 </head>
 <body class=>
     <div class=" text-center">
+        <!--division class for text-->
         <div class="slide1">
             <div class="welcome">
                 <style>
                     .slide1 {
                         background-image: url("css/img/h_img.jpg");
-    background-repeat: no-repeat;
-
-    height: 100vh;
-    text-align: center;
-    background-size: cover;
-    color: white;
+                        background-repeat: no-repeat;
+                        height: 100vh;
+                        text-align: center;
+                        background-size: cover;
+                        color: white;
                     }
                 </style>
-                <br><br>
-                <br><br>
-                <br><br>
-                <br><br>
-                <br><br>
+                <!--to insert an image background and control its borders-->
+                <br><br><br><br>
+                <br><br><br><br>
+                <br><br> <!--to create breaks-->
                 <img src="css/img/logo.png">
+                <!--to put an image logo-->
+                <!--image is in a light color. it wont show util its background is of a darker color-->
                 <br><br>
                 <H1>WELCOME</H1>
                 <br>
@@ -36,51 +42,61 @@
                 <br><br>
                 <br><br>
                 <img src="css/img/mouse_click.png">
+                 <!--to put an image logo-->
+                 <!--image is in a light color. it wont show util its background is of a darker color-->
+                <br><br>
             </div>
         </div>
-        <br><br>
+        <br>
         <div class="about">
             <h4>ABOUT US</h4>
-            <br>
             <p>When you work with us, you are part of a team of committed collaborators.
-                All aspects of our software development process are integrated,iterative
+                All aspects of our software development process are integrated,iteractive
                 and agile.
-            </p>
-            <p>Our approach unifies design, development and project management to create exceptional products. <br>
-                We start each project by understanding our business goals,
-                the user's needs and the products requirements.<br>
-                Then we help translate them into effective and elegant solutions
-            </p>
+            </p><!--paragraph-->
+            <p>Our approach unifies design, development and project management to create exceptional products.
+            </p><!--paragraph-->
+                <p> We start each project by understanding our business goals,
+                the user's needs and the products requirements.
+            </p><!--paragraph-->
+                <p>Then we help translate them into effective and elegant solutions
+                </p><!--paragraph-->
         </div>
         <div class="slide3">
             <style>
                 .slide3 {
-    background-image: url("css/img/s_image.jpg") ;
-    text-align: center;
-    color: white;
-    background-size: cover;
-    height: 50vh;
-}
+                    background-image: url("css/img/s_image.jpg") ;
+                    text-align: center;
+                    color: white;
+                    background-size: cover;
+                    height: 50vh;
+                    }
             </style>
+            <!--to insert an image background and control its borders-->
             <div class="Services">
                 <H4>Services</H4>
-                <p>Before We sign a contract or write a line of code, our team will spend the necessary time needed to
-                    understand our product vision.<br>The outcome of this scoping session is a proposal or
-                    high-level statement of work.<br>Based on your requirements, we can provide a complete offering
+                <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to
+                    understand our product vision.
+                    </p><!--paragraph-->
+                    <p>The outcome of this scoping session is a proposal or
+                    high-level statement of work.
+                    </p><!--paragraph-->
+                    <p>based on your requirements, we can provide acomplete offering
                     or just the pieces you need.
-                </p>
-            </div>
+                    </p><!--paragraph-->
         </div>
     </div><br>
     <div class="container" id="whatWeDo">
         <br>
-        <h4 style="text-align: center;">WHAT WE DO</h4>
+        <h4 style="text-align: center;">WHAT WE DO</h4><!--text to align to center-->
         <br>
         <div class="row">
             <div class="col-md-4" id="design">
                 <img src="css/img/design_icon.png" alt="Delani's design icon.">
+                <!--add an image-->
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h5>DESIGN</h5>
                 <p class="hide" id="hideDesign">
+                    <!--add the id inorder to reference it through javascript-->
                     Our design practice offers a full range of services including brand strategy, interaction and visual
                     design and user experience testing.<br>
                     Throughout your project, our designers create and implement visual design and workflows, solicit
@@ -90,24 +106,30 @@
                 <br>
             </div>
             <div class="col-md-4" id="development">
+                <!--add the id inorder to reference it through javascript-->
                 <img src="css/img/dev_icon.png" alt="Delani's dev. icon.">
+                <!--add an image-->
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h5>DEVELOPMENT</h5>
+                <!--add non breaking spaces-->
                 <br>
                 <p class="hide" id="hideDevelopment">
+                    <!--add the id inorder to reference it through javascript-->
                     All engineers are fluent in the latest enterprise, mobile and web development technologies.<br>
                     They collaborate with your team to write, and improve code on a daily basis, using proven practices
                     such as test-driven development and pair programming.
                 </p><br>
             </div>
             <div class="col-md-4" id="productManagement">
+                <!--add the id inorder to reference it through javascript-->
                 <img src="css/img/product_icon.png" alt="Delani's product.">
+                <!--add an image-->
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <h5>PRODUCT MANAGEMENT</h5>
                 <br>
-                <p class="hide" id="productManagementt">
+                <p class="hide" id="hideproductManagement">
+                    <!--add the id inorder to reference it through javascript-->
                     Planning and development is iterative. Because we are constantly coding and testing,<br>the products
-                    we
-                    build are always ready to go live.
+                    we build are always ready to go live.
                     This iterative process allows for changes as business requirements evolve.
                 </p>
                 <br>
@@ -117,26 +139,31 @@
     <div class="container-fluid" id="portfolio">
         <h1 class="text-center">Portfolio</h1>
         <div class="card-deck text-center">
+            <!--set the images to arrange in a card like formation-->
             <div class="card">
                 <img src="css/img/work5.jpg" class="img-fluid" alt="">
+                <!--add an image-->
                 <div class="card-1">
                     <p class="ptag font-weight-bold text-uppercase">Design <br>Kenya</p>
                 </div>
             </div>
             <div class="card">
                 <img src="css/img/work4.jpg" class="img-fluid" alt="">
+                <!--add an image-->
                 <div class="card-1">
                     <p class="ptag font-weight-bold text-uppercase">Ontario <br> security</p>
                 </div>
             </div>
             <div class="card">
                 <img src="css/img/work2.jpg" class="img-fluid" alt="">
+                <!--add an image-->
                 <div class="card-1">
                     <p class="ptag font-weight-bold text-uppercase">Design <br>Kenya</p>
                 </div>
             </div>
             <div class="card">
                 <img src="css/img/work1.jpg" class="img-fluid" alt="">
+                <!--add an image-->
                 <div class="card-1">
                     <p class="ptag font-weight-bold text-uppercase">Weather <br>Informer</p>
                 </div>
@@ -145,24 +172,28 @@
         <div class="card-deck text-center">
             <div class="card">
                 <img src="css/img/work1.jpg" class="img-fluid" alt="">
+                <!--add an image-->
                 <div class="card-1">
                     <p class="ptag font-weight-bold text-uppercase">Lets <br>Chat</p>
                 </div>
             </div>
             <div class="card">
                 <img src="css/img/work6.jpg" class="img-fluid" alt="">
+                <!--add an image-->
                 <div class="card-1">
                     <p class="ptag font-weight-bold text-uppercase">Mobile <br>Application</p>
                 </div>
             </div>
             <div class="card">
                 <img src="css/img/work7.jpg" class="img-fluid" alt="">
+                <!--add an image-->
                 <div class="card-1">
                     <p class="ptag font-weight-bold text-uppercase">Mock-up <br>Kenya</p>
                 </div>
             </div>
             <div class="card">.
                 <img src="css/img/work8.jpg" class="img-fluid" alt="">
+                <!--add an image-->
                 <div class="card-1">
                     <p class="ptag font-weight-bold text-uppercase">Giraffe <br>Restaurant</p>
                 </div>
@@ -174,19 +205,21 @@
         <form action="http://eepurl.com/g_aNs9"
             method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
             target="_blank" novalidate>
+            <!--link that will link to mail chimp-->
             <div class="Contact-us">
                 <style>
                     .slide4 {
-    background-image: url("css/img/c_image.jpg");
-    text-align: center;
-    color: white;
-    height: 100vh;
-    background-size: cover;
-    padding-top: 50px;
-}
+                        background-image: url("css/img/c_image.jpg");
+                        text-align: center;
+                        color: white;
+                        height: 100vh;
+                        background-size: cover;
+                        padding-top: 50px;
+                    }
                 </style>
+                <!--add an image background-->
                 <br>
-                <H4>Contact-us</H4>
+                <H4>CONTACT US</H4>
                 <br><br>
                 <input type="text" name="NAME" class="" id="mce-NAME" placeholder="Name...">
                 &nbsp;&nbsp;
@@ -201,22 +234,23 @@
         </form>
     </div><br><br>
     <div class="row col-md-12 SOCIALMEDIA">
-        <img src="css/img/twitter.png" alt="">
-        <img src="css/img/dribble.png" alt="">
-        <img src="css/img/facebook.png" alt="">
-        <img src="css/img/g_plus.png" alt="">
-        <img src="css/img/behance.png" alt="">
-        <img src="css/img/skype.png" alt="">
-        <img src="css/img/you_tube.png" alt="">
-        <img src="css/img/stumble_upon.png" alt="">
-        <img src="css/img/pinterest.png" alt="">
-        <img src="css/img/flickr.png" alt="">
+        <img src="css/img/twitter.png" alt="twitter">
+        <img src="css/img/dribble.png" alt="dribble">
+        <img src="css/img/facebook.png" alt="facebook">
+        <img src="css/img/g_plus.png" alt="plus">
+        <img src="css/img/behance.png" alt="behance"><!--add an image-->
+        <img src="css/img/skype.png" alt="skype">
+        <img src="css/img/you_tube.png" alt="You tube">
+        <img src="css/img/stumble_upon.png" alt="stumble upon">
+        <img src="css/img/pinterest.png" alt="pinterest">
+        <img src="css/img/flickr.png" alt="flickr">
     </div>
     <div class="slide5">
         <br>
         <div class="Footer">
+            <!--add a footer-->
             <p>Delani Studio
-                <br>2019
+                <br>2020
             </p>
         </div>
     </div>
