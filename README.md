@@ -7,7 +7,7 @@ This website will showcase Delani Studio. What Delani Studio is, the services it
 # project setup instructions
 Run on any Browser like Chrome, Mozilla Firefox
 # live link on GitHub pages
-https://github.com/JosephJacob/Akan-Names.git
+https://josephjacob.github.io/Delani-Studio/
 # copyright and license information
 MIT License
 
